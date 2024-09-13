@@ -36,21 +36,24 @@
 <body class="manrope-font">
     <header class="container mx-auto">
         <section>
-            <div class="hero ">
-                <div class="hero-content flex-col lg:flex-row">
+            <div class="my-5 lg:my-20 px-4 lg:px-0">
+                <div class="flex items-center justify-between flex-col lg:flex-row">
 
                     <div>
-                        <h1 class="text-7xl w-[600] font-extrabold ">
+                        <h1 class="text-4xl lg:text-7xl w-[600] font-bold lg:font-extrabold ">
                             It's good <br>
                             tea time at The <br>
                             Tea House</h1>
                         <p class="py-6">
                             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                         </p>
-                        <button class="btn btn-primary">Explore More</button>
+                        <button class="btn text-white bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Explore
+                            more
+                            <i class="fa-solid fa-arrow-trend-up"></i>
+                        </button>
                     </div>
                     <div>
-                        <img src="images/banner.png" class="max-w-sm " />
+                        <img src="images/banner.png" class="" />
                         <div class="flex items-center gap-5 drop-shadow-lg bg-white p-5 w-60 -mt-16">
                             <div> <i class="fa-solid text-4xl text-amber-400 fa-star"></i></div>
                             <div>
@@ -158,7 +161,7 @@
                         have suffered
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
                         believable. </p>
-                    <button class="btn btn-primary">Show All</button>
+                    <button class="btn bg-white px-10 text-orange-600 text-xl font-extrabold">Show All</button>
                 </div>
             </div>
             <!-- next review -->
@@ -203,7 +206,7 @@
                 </div>
             </div>
         </section>
-        <section class="my-24 text-center">
+        <section class="my-10 lg:my-24 text-center">
             <div class="mb-12">
                 <h1 class="text-5xl font-extrabold">News & Events</h1>
                 <p class="pt-5 lg:max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but
@@ -254,8 +257,54 @@
             </div>
         </section>
     </main>
-    <footer>
 
+    <footer class="bg-gradient-to-r from-[#ff00001b] to-[#ff883834] px-4 lg:px-48 py-10 text-base-content ">
+        <div class="flex justify-between my-24">
+            <img src="images/cup.png" alt="">
+            <p>
+                <span>Ready to get started?</span>
+                <button class="btn ml-5 text-white text-base  bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Get
+                    Started</button>
+            </p>
+        </div>
+        <div class="footer font-bold text-sm lg:text-xl grid grid-cols-2 lg:grid-cols-4 text-base-content">
+            <nav>
+                <h6 class="footer-title text-2xl">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title text-2xl">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title text-2xl">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form class="grid  grid-cols-1 -mx-6">
+                <h6 class="footer-title text-2xl">Newsletter</h6>
+                <fieldset class="form-control lg:w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="relative">
+                        <input type="text" placeholder="username@site.com"
+                            class="bg-transparent py-4 border-b-2 border-black outline-none" />
+                        <button
+                            class="btn text-white absolute lg:top-0 lg:right-0 rounded-full bg-gradient-to-r from-[#FF8938] to-[#FF0000]"><i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <p class="text-center mt-4">© 2024 UIDesign.to - All rights reserved.</p>
     </footer>
 </body>
 
